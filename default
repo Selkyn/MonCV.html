@@ -4,7 +4,7 @@ server {
     root /var/www/html;
     index index.html index.htm index.nginx-debian.html;
  
-    server_name moncv.bwb;
+    server_name moncv.html;
  
     location / {
         try_files $uri $uri/ =404;
