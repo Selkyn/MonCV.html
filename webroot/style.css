@@ -1,5 +1,5 @@
 :root {
-    --main-color : #ff7f04;
+    --main-color : #f3861f;
     --second-color : white;
     --border-radius : 8px; 
 }
@@ -33,9 +33,13 @@ h2 {
     text-transform: uppercase;
 }
 
+h3 {
+    text-transform: uppercase;
+}
 ul {
     list-style: none;
     padding-inline-start: 0px;
+    margin-top: 0px;
 }
 
 a {
@@ -66,7 +70,8 @@ a {
 #main-section-right {
     display: flex;
     flex-direction: column;
-    background-repeat: no-repeat;
+    background-image: url(images/pixel4.png);
+    background-position: cover;
     background-color: white;
 }
 
