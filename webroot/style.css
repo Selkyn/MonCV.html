@@ -87,6 +87,7 @@ a {
     position: relative;
     background-color: grey;
     border-radius: var(--border-radius);
+    overflow: hidden;
 }
 
 .div-bar-progress {
