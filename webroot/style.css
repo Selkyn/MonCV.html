@@ -1,0 +1,150 @@
+:root {
+    --main-color : #ff7f04;
+    --second-color : white;
+    --border-radius : 8px; 
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    width: 800px;
+    margin: auto;
+    border-radius: var(--border-radius);
+    
+}
+
+section {
+    padding: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+h2 {
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+a {
+    color: white;
+}
+
+/*LEFT SIDE*/
+#main-section-left {
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: var(--second-color);
+}
+
+#main-section-left img {
+    width: 150px;
+    border-radius: 180%;
+    
+}
+
+#section-left-title{
+    margin-top: 100px;
+}
+
+
+/*RIGHT SIDE*/
+#main-section-right {
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+#right-div-skills {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.section-right-div-bar {
+    width: 100px;
+    height: 10px;
+    position: relative;
+    background-color: grey;
+    border-radius: var(--border-radius);
+}
+
+.div-bar-progress {
+    position: absolute;
+    height: 10px;
+    width: 30%;
+    background-color: var(--main-color);
+}
+
+#progress-1 {
+    width: 70%;
+}
+
+#progress-2 {
+   width: 50%; 
+}
+
+#progress-3 {
+    width: 10%;
+}
+
+#progress-4 {
+    width: 2%;
+}
+
+.section-right-div-ul {
+    display: flex;
+    gap: 150px;
+}
+
+.section-right-div-ul li {
+    margin: 10px;
+}
+
+#separator {
+    width: 100px;
+    height: 2px;
+    margin: auto;
+    display: block;
+    background-color: var(--main-color);
+    box-shadow: 2px 5px 10px var(--main-color);
+}
+
+table {
+    margin-bottom: 30px;
+}
+
+#langage-div {
+    display: flex;
+    gap: 70px;
+}
+
+#langage-div p {
+    margin-top: 0px;
+}
+.cv-span {
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--main-color);
+    padding: 0px;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
